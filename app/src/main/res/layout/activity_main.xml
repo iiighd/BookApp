@@ -30,20 +30,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Name"
-            android:minHeight="48dp" />
+            android:background="@color/cardview_shadow_end_color"
+            android:minHeight="50dp" />
 
         <EditText
             android:id="@+id/etLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Location"
-            android:minHeight="48dp" />
+            android:background="@color/cardview_shadow_end_color"
+            android:minHeight="50dp" />
 
         <Button
             android:id="@+id/btAdd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add" />
+            android:background="@color/teal_700"
+            android:text="ADD" />
 
 
     </LinearLayout>
